@@ -5,7 +5,7 @@ This repository many application for one system.
 ## Structure Directory
 
 ```
-CI-many-app
+.
 ├── primary.com
 │   └── application
 │       ├── cache
