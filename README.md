@@ -5,61 +5,71 @@ This repository many application for one system.
 ## Structure Directory
 
 ```
-CI-many-app
+.
 ├── primary.com
-│   └── application
-│       ├── cache
-│       ├── config
-│       ├── controllers
-│       ├── core
-│       ├── errors
-│       ├── helpers
-│       ├── hooks
-│       ├── language
-│       │   └── english
-│       ├── libraries
-│       ├── logs
-│       ├── models
-│       ├── third_party
-│       └── views
+│   └── application
+│       ├── cache
+│       ├── config
+│       ├── controllers
+│       ├── core
+│       ├── helpers
+│       ├── hooks
+│       ├── language
+│       │   └── english
+│       ├── libraries
+│       ├── logs
+│       ├── models
+│       ├── third_party
+│       └── views
+│           └── errors
+│               ├── cli
+│               └── html
 ├── sub.primary.com
-│   └── application
-│       ├── cache
-│       ├── config
-│       ├── controllers
-│       ├── core
-│       ├── errors
-│       ├── helpers
-│       ├── hooks
-│       ├── language
-│       │   └── english
-│       ├── libraries
-│       ├── logs
-│       ├── models
-│       ├── third_party
-│       └── views
+│   └── application
+│       ├── cache
+│       ├── config
+│       ├── controllers
+│       ├── core
+│       ├── helpers
+│       ├── hooks
+│       ├── language
+│       │   └── english
+│       ├── libraries
+│       ├── logs
+│       ├── models
+│       ├── third_party
+│       └── views
+│           └── errors
+│               ├── cli
+│               └── html
 └── system
     ├── core
+    │   └── compat
     ├── database
-    │   └── drivers
-    │       ├── cubrid
-    │       ├── mssql
-    │       ├── mysql
-    │       ├── mysqli
-    │       ├── oci8
-    │       ├── odbc
-    │       ├── pdo
-    │       ├── postgre
-    │       ├── sqlite
-    │       └── sqlsrv
+    │   └── drivers
+    │       ├── cubrid
+    │       ├── ibase
+    │       ├── mssql
+    │       ├── mysql
+    │       ├── mysqli
+    │       ├── oci8
+    │       ├── odbc
+    │       ├── pdo
+    │       │   └── subdrivers
+    │       ├── postgre
+    │       ├── sqlite
+    │       ├── sqlite3
+    │       └── sqlsrv
     ├── fonts
     ├── helpers
     ├── language
-    │   └── english
+    │   └── english
     └── libraries
         ├── Cache
-        │   └── drivers
-        └── javascript
+        │   └── drivers
+        ├── Javascript
+        └── Session
+            └── drivers
 ```
 
 ## Outline
