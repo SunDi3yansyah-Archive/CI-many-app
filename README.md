@@ -1,4 +1,4 @@
-# CodeIgniter Many App
+# CodeIgniter Many App CI 3
 
 This repository many application for one system.
 
