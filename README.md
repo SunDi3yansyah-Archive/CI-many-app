@@ -1,9 +1,73 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
+# CodeIgniter Many App
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
+This repository many application for one system.
 
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+## Structure Directory
+
+```
+CI-many-app
+├── primary.com
+│   └── application
+│       ├── cache
+│       ├── config
+│       ├── controllers
+│       ├── core
+│       ├── errors
+│       ├── helpers
+│       ├── hooks
+│       ├── language
+│       │   └── english
+│       ├── libraries
+│       ├── logs
+│       ├── models
+│       ├── third_party
+│       └── views
+├── sub.primary.com
+│   └── application
+│       ├── cache
+│       ├── config
+│       ├── controllers
+│       ├── core
+│       ├── errors
+│       ├── helpers
+│       ├── hooks
+│       ├── language
+│       │   └── english
+│       ├── libraries
+│       ├── logs
+│       ├── models
+│       ├── third_party
+│       └── views
+└── system
+    ├── core
+    ├── database
+    │   └── drivers
+    │       ├── cubrid
+    │       ├── mssql
+    │       ├── mysql
+    │       ├── mysqli
+    │       ├── oci8
+    │       ├── odbc
+    │       ├── pdo
+    │       ├── postgre
+    │       ├── sqlite
+    │       └── sqlsrv
+    ├── fonts
+    ├── helpers
+    ├── language
+    │   └── english
+    └── libraries
+        ├── Cache
+        │   └── drivers
+        └── javascript
+```
+
+## Outline
+
+**index.php**
+``` php
+$system_path = '../system';
+```
+
+## License
+[![MIT License](https://img.shields.io/dub/l/vibe-d.svg)](LICENSE)
