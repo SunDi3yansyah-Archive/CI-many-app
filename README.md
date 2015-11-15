@@ -2,7 +2,7 @@
 
 This repository many application for one system.
 
-If you using want to CodeIgniter version 2 please switch to branch [CI-2](https://github.com/SunDi3yansyah/CI-many-app/tree/CI-2)
+If you want to using CodeIgniter version 2 please switch to branch [CI-2](https://github.com/SunDi3yansyah/CI-many-app/tree/CI-2)
 
 ## Structure Directory
 
